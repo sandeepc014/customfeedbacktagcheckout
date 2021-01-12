@@ -9,15 +9,17 @@ echo ""
 
 sudo git fetch -a
 
+latesttagname=$(sudo git tag | tail -1)
+
 echo "Fetching new tag"
 
-echo $thetagname
+echo $latesttagname
 echo ""
 echo ""
 
-sudo git checkout $thetagname
+sudo git checkout $latesttagname
 
 echo ""
 echo ""
-echo "Successfully Deployed $thetagname"
+echo "Successfully Deployed $latesttagname"
 
