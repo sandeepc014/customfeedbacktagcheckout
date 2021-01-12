@@ -2,12 +2,12 @@
 
 cd /var/www/html/demo.linkstreet.in/blocks/customfeedback
 
-thetagname=$( git tag | tail -1)
+thetagname=$(sudo git tag | tail -1)
 
 echo "The current tag is $thetagname"
 echo ""
 
-git fetch -a
+sudo git fetch -a
 
 echo "Fetching new tag"
 
@@ -15,7 +15,7 @@ echo $thetagname
 echo ""
 echo ""
 
-git checkout $thetagname
+sudo git checkout $thetagname
 
 echo ""
 echo ""
