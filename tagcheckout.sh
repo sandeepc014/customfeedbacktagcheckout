@@ -7,7 +7,7 @@ thetagname=$(sudo git tag | tail -1)
 echo "The current tag is $thetagname"
 echo ""
 
-sudo git fetch -a
+sudo git fetch --all -p
 
 latesttagname=$(sudo git tag | tail -1)
 
