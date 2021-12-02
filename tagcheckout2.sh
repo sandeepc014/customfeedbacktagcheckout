@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/html/moodle-stage.linkstreet.in/blocks/customfeedback
+cd /var/www/html/demo.linkstreet.in/blocks/customfeedback
 
 
 echo "Pulling code from Master Branch"
@@ -23,5 +23,5 @@ git log -n5
 
 echo ""
 echo ""
-echo "Successfully Deployed code in https://moodle-stage.linkstreet.in site"
+echo "Successfully Deployed code in https://demo.linkstreet.in site"
 
