@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/html/demo.linkstreet.in/blocks/customfeedback
+cd /var/www/webroots/demo.linkstreet.in/blocks/customfeedback
 
 
 echo "Pulling code from Master Branch"
