@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/html/demo.linkstreet.in/blocks/customfeedback
+cd /var/www/webroots/demo.linkstreet.in/blocks/customfeedback
 
 thetagname=$(sudo git tag | tail -1)
 
