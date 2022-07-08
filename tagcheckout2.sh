@@ -9,7 +9,7 @@ echo ""
 echo ""
 echo ""
 
-sudo git pull origin master 
+git pull origin master 
 
 echo ""
 echo ""
